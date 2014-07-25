@@ -1,0 +1,177 @@
+/* BODY SETUP */
+
+body {
+	background-color: rgba(241, 255, 100, .3);
+	background-image: url('../Images/echeveria.gif');
+	width: 90%;
+	margin: 2% auto;
+	font: .874em arial, san-serif;
+	color: #333333;
+}
+
+/* SECTIONS */
+
+.sections {
+	background-color: #A6FFEF;
+	background: linear-gradient(#A6FFEF, #B2D9F7);
+	border: 5px dotted #726CEB;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 10px 30px 30px;
+	margin: 5%;
+}
+
+/* HEADLINES */
+
+h1, h2, h3 {
+	font-family: 'Berkshire Swash', Times, serif;
+	color: #FF3B90;
+	text-shadow: 1px 1px #808080;
+}
+
+h1 {
+	font-size: 5em;
+	text-indent: 80px;
+	line-height: 40px;
+	text-decoration:underline;
+}
+
+h2 {
+	font-size: 2.625em;
+	line-height: 1px;
+}
+
+h3 {
+	font-size: 1.75em;
+	line-height: 1px;
+}
+
+/* Adding an Icon to the Page Header */
+#top {
+	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	height: 76px;
+	padding: 1%;
+}
+
+/* ABOUT and MENU sections being made into a column along side the PHOTO section */
+
+#leftSide {
+	width: 52%;
+	float: left;
+	margin: .008%;
+	overflow: auto;
+}
+
+#div_photos {
+	width: 36%;
+	float: left;
+	margin: .008%;
+	overflow: auto;
+}
+
+
+/* LINKS */
+
+a:link{
+	color: #726CE8;
+	text-decoration:none;
+}
+
+a:visited{
+	color: #666666;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #FF3B90;
+	text-decoration:underline;
+}
+
+a:active{
+	color: #F1FF64;
+	text-decoration:underline;
+}
+
+/* NAVIGATION BAR */
+
+
+#nav li {
+	font-size: 1.125em;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	background-color: rgb(241, 255, 100);
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 5px;
+	width: 19.25%;
+	height: 25px;
+	margin: 2% 1.4%;
+}
+
+#nav {
+	clear:both;
+}
+
+/* BOCKQUOTE STYLING */
+
+blockquote {
+	width: 85%;
+	margin: .001% auto;
+	text-align: center;
+	font-family: 'Berkshire Swash', Times, serif;
+	font-size: 1.125em;
+	color: #726CE8;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+footer {
+	font: italic  normal .875em arial, san-serif;
+	color: #333333;
+}
+
+/* LISTS */
+.sublist {
+	list-style-type: square;
+}
+.mainlist {
+	list-style-type: none;
+}
+
+/* Photo Gallery */
+
+#div_photos{
+	width: 36%;
+	margin: 2% auto;
+	text-align: center;
+}
+
+figure a{
+	display: inline-block;
+}
+
+figure img {
+	border: 2px solid;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #808080;
+	margin: 2.6% 0 1%; 
+}
+
+/* Contact Section */
+
+#contactinfo {
+	height: 250px ;
+	width: 57%;
+	background-color: rgb(241, 255, 100);
+	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	background-position: top center;
+	padding: 1%;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 55px 5px 5px;
+	margin: .5% auto;
+	text-align: center;
+	clear: both;
+}
