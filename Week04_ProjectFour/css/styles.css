@@ -2,7 +2,7 @@
 
 body {
 	background-color: rgba(241, 255, 100, .3);
-	background-image: url('../Images/echeveria.gif');
+	background-image: url('../images/echeveria.gif');
 	width: 90%;
 	margin: 2% auto;
 	font: .874em arial, san-serif;
@@ -59,7 +59,7 @@ h3 {
 
 /* Adding an Icon to the Page Header */
 #top {
-	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	background-image: url('../images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
 	height: 76px;
 	padding: 1%;
 }
@@ -196,7 +196,7 @@ figure img {
 	height: 430px ;
 	width: 60%;
 	background-color: rgb(241, 255, 100);
-	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	background-image: url('../images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
 	background-position: top center;
 	border-radius: 60px;
 	box-shadow: 2px 2px 5px #808080;
