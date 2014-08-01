@@ -1,0 +1,267 @@
+/* Page Stylings */
+
+body {
+	background-color: rgba(241, 255, 100, .3);
+	background-image: url('../Images/echeveria.gif');
+	width: 90%;
+	margin: 2% auto;
+	font: .874em arial, san-serif;
+	color: #333333;
+}
+
+/* Link Stylings */
+a:link{
+	color: #726CE8;
+	text-decoration:none;
+}
+
+a:visited{
+	color: #666666;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #FF3B90;
+	text-decoration:underline;
+}
+
+a:active{
+	color: #F1FF64;
+	text-decoration:underline;
+}
+
+
+/* Headlines on the Page Stylings */
+h1, h2, h3 {
+	font-family: 'Berkshire Swash', Times, serif;
+	color: #FF3B90;
+	text-shadow: 1px 1px #808080;
+}
+
+h1 {
+	font-size: 5em;
+	text-indent: 80px;
+	line-height: 40px;
+	text-decoration:underline;
+}
+
+h2 {
+	font-size: 2.625em;
+	line-height: 1px;
+}
+
+h3 {
+	font-size: 1.75em;
+	line-height: 1px;
+}
+
+/* Header & Navigation Stylings */
+
+/* Adding an Icon to the Page Header */
+#top {
+	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	height: 76px;
+	padding: 1%;
+}
+
+/* NAVIGATION BAR */
+
+
+nav li {
+	font-size: 1.125em;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	background-color: rgb(241, 255, 100);
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 5px;
+	width: 19.25%;
+	height: 25px;
+	margin: 1% 1.4%;
+}
+
+nav {
+	list-style-type: none;
+	clear:both;
+}
+
+
+
+
+/* SECTIONS */
+
+article, aside {
+	background-color: #A6FFEF;
+	background: linear-gradient(#A6FFEF, #B2D9F7);
+	border: 5px dotted #726CEB;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 10px 30px 30px;
+	margin: 5%;
+}
+
+
+
+/* ABOUT and MENU sections being made into a column along side the PHOTO section */
+
+section {
+	width: 60%;
+	float: left;
+	margin: .008% .5%;
+	overflow: auto;
+}
+
+aside {
+	width: 25%;
+	float: left;
+	margin: 2.7% .5%;
+	text-align: center;
+	overflow: auto;
+}
+
+
+
+/* BOCKQUOTE STYLING within the About Article */
+
+blockquote {
+	width: 85%;
+	margin: .001% auto;
+	text-align: center;
+	font-family: 'Berkshire Swash', Times, serif;
+	font-size: 1.125em;
+	color: #726CE8;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+footer {
+	font: italic  normal .875em arial, san-serif;
+	color: #333333;
+}
+
+/* LISTS within the Menu Article */
+.sublist {
+	list-style-type: square;
+}
+
+/* Table stylings in the Menu section */
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid #726CEB;
+	padding: 1%;
+}
+
+table .row_color {
+	background-color: rgba(241, 255, 100, .5);
+}
+
+th {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+td {
+	text-align: right;
+}
+
+tr:hover {
+	background: #F0FFFF;
+}
+
+/* Photo Gallery within the Aside*/
+
+/* Per your notation on the Project 3 Assignment I tried applying the border and shadow information to the figure a and the result was a rounded corner box around a square image and everything didn't line up properly. Can you please explain how this was supposed to be done and in a way that would allow my image boxes to stay rounded with a shadow underneath. The coloring itself is being assignment by the link css above. I'm confused as to why this is incorrect */
+
+figure a{
+	display: inline-block;
+}
+
+figure img {
+	border: 2px solid;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #808080;
+	margin: 2.6% 0 1%; 
+}
+
+/* Contact Section */
+
+#contactinfo {
+	height: 430px ;
+	width: 60%;
+	background-color: rgb(241, 255, 100);
+	background-image: url('../Images/1406276471_cake_muffin_cupcake_pink.png'); background-repeat: no-repeat;
+	background-position: top center;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 55px 5px 5px;
+	margin: 1% auto;
+	text-align: center;
+	clear: both;
+}
+
+/* Form Styling */
+form {
+	width: 90%;
+	background-color: #F0FFFF;
+	border: 5px dotted #726CEB;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #808080;
+	padding: 10px 5px;
+	margin: 2% auto;
+
+}
+
+textarea:hover, input:hover {
+	border: 2px solid #FF3B90;
+}
+
+textarea:focus, input:focus {
+	border: 2px solid #726CEB;
+}
+
+#name_input, #email_input {
+	width: 45%;
+	margin: 2.7% 2%;
+}
+
+#name_input {
+	float: left;
+	overflow: auto;
+}
+
+#email_input {
+	float: left;
+	overflow: auto;
+	clear: right;
+}
+
+
+#subject_selection {
+	clear: both;
+}
+
+#button {
+	width: 40%;
+	height: 32px;
+	background-color: #A6FFEF;
+	background: linear-gradient(#A6FFEF, #B2D9F7);
+	border-top: 2px solid #726CEB;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #808080;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #726CEB;
+}
+
+#button:hover {
+	background-color: #B2D9F7;
+	background: linear-gradient(#B2D9F7, #A6FFEF);
+	border-bottom: 2px solid #726CEB;
+}
